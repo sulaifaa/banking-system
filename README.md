@@ -1,45 +1,148 @@
 # Banking System
 
-A full-stack banking management system built using JavaScript, Node.js, and MongoDB. The application supports separate customer and administrator panels, banking operations, and fraud detection mechanisms.
+A full-stack banking management system built with Node.js, Express.js, MongoDB, and modern web technologies. The platform supports customers, employees, and administrators through dedicated dashboards, secure authentication, transaction management, loan processing, card services, and fraud detection analytics.
 
-## Features
+## Key Features
 
-- Customer Dashboard
-  - Account Management
-  - Balance Inquiry
-  - Transaction History
-  - Deposit and Withdrawal Operations
+### Customer Portal
 
-- Administrator Dashboard
-  - Customer Management
-  - Transaction Monitoring
-  - System Administration
+* Secure Login & OTP Verification
+* Account Dashboard
+* Money Transfers
+* Bill Payments
+* Loan Requests
+* Branch Locator
 
-- Fraud Detection
-  - Suspicious Transaction Detection
-  - Transaction Monitoring and Alerts
+### Employee Portal
 
-- Database Management
-  - MongoDB Integration
-  - Secure Data Storage
+* Customer Management
+* Loan Processing
+* Card Request Management
+* Transaction Monitoring
+* User Management
+* Branch Management
+* Analytics Dashboard
+* Fraud Detection & Monitoring
+* Risk User Analysis
 
-## Technologies Used
+### Security
 
-- JavaScript
-- Node.js
-- Express.js
-- MongoDB
-- HTML
-- CSS
+* Role-Based Access Control
+* OTP Verification
+* Fraud Detection System
+* Risk Analytics
 
+## Tech Stack
 
-## Installation
+**Frontend**
 
-```bash
-npm install
-npm start
+* HTML
+* CSS
+* JavaScript
+* Tailwind CSS
+
+**Backend**
+
+* Node.js
+* Express.js
+
+**Database**
+
+* MongoDB
+
+## Project Structure
+
+```text
+banking-system/
+├── banking-frontend/
+├── banking-backend/
+└── screenshots/
 ```
+
+## Project Highlights
+
+### Customer Dashboard
+
+![Customer Dashboard](screenshots/customer_dash.png)
+
+### Employee Dashboard
+
+![Employee Dashboard](screenshots/employee_dash.png)
+
+### Admin Analytics
+
+![Admin Analytics](screenshots/analytics_foradmin.png)
+
+### Fraud Detection System
+
+![Fraud Detection](screenshots/fraud_manage.png)
+
+### User Management
+
+![User Management](screenshots/user_management.png)
+
+### Money Transfer
+
+![Money Transfer](screenshots/transfer_money.png)
+
+## Additional Screenshots
+
+### Customer Login
+
+![Customer Login](screenshots/customer_login.png)
+
+### Employee Login
+
+![Employee Login](screenshots/employee_login.png)
+
+### Branch Management
+
+![Branch Management](screenshots/branch_manage.png)
+
+### Card Request Management
+
+![Card Request Management](screenshots/cardreq_manage.png)
+
+### Loan Management
+
+![Loan Management](screenshots/loan_manage.png)
+
+### Risk User Analytics
+
+![Risk User Analytics](screenshots/riskuser_analytics.png)
+
+### Bill Payments
+
+![Bill Payments](screenshots/make_payment.png)
+
+### Loan Requests
+
+![Loan Requests](screenshots/req_loan.png)
+
+### Create Customer
+
+![Create Customer](screenshots/create_customer.png)
+
+### Branch Locator
+
+![Branch Locator](screenshots/find_nearestbranch.png)
+
+### OTP Verification
+
+![OTP Verification](screenshots/otp_verif.png)
+
+### OTP Code
+
+![OTP Code](screenshots/otp_code.png)
+
+## Future Enhancements
+
+* Real-time transaction monitoring
+* Enhanced fraud detection models
+* Mobile application support
+* Email & SMS notifications
+* Advanced reporting and analytics
 
 ## Author
 
-Sulaifa
+**Sulaifa**
