@@ -1,0 +1,1 @@
+export default function ThemeToggle(){return <div>Theme</div>}
